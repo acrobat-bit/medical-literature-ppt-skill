@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "template_sha256": "43fa1c055beb274cce3a5a1f1e8db7d35ffb75663826c7c263dcebdd751153ed",
+  "layouts": {
+    "paper_cover": {
+      "slide": 1,
+      "bind": {
+        "paper_title": "paper_title",
+        "journal": "journal",
+        "impact_factor": "impact_factor",
+        "presenter_name": "presenter_name",
+        "presenter_date": "presenter_date",
+        "title_capture": "title_capture"
+      }
+    },
+    "authors": {
+      "slide": 2,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "portrait": "portrait",
+        "author_identity": "author_identity",
+        "body": "body"
+      }
+    },
+    "prose": {
+      "slide": 3,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body"
+      }
+    },
+    "reflection": {
+      "slide": 3,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body"
+      }
+    },
+    "source_full:portrait": {
+      "slide": 4,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body",
+        "source_1": "source_1"
+      }
+    },
+    "source_full": {
+      "slide": 5,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body",
+        "source_1": "source_1"
+      }
+    },
+    "source_image": {
+      "slide": 5,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body",
+        "source_1": "source_1"
+      }
+    },
+    "source_side": {
+      "slide": 4,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body",
+        "source_1": "source_1"
+      }
+    },
+    "source_pair": {
+      "slide": 6,
+      "bind": {
+        "major": "major",
+        "minor": "minor",
+        "body": "body",
+        "source_1": "source_1",
+        "source_2": "source_2"
+      }
+    }
+  },
+  "slides": {}
+}

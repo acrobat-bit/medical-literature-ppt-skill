@@ -1,0 +1,4 @@
+interface:
+  display_name: "医学学术 PPT 与审阅台"
+  short_description: "判断文章亮点、按重点编排医学汇报、套用 PPT 模板并交付审阅台"
+  default_prompt: "使用 $make-natural-academic-slides，根据提供的材料制作可编辑医学汇报 PPT，并生成带讲稿、证据和修改清单的网页审阅台。"

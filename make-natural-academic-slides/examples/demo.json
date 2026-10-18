@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "deck": {
+    "id": "academic-slides-demo",
+    "title": "医学文献汇报 · 三页样张",
+    "version": "v1.1",
+    "mode": "test_fixture",
+    "pptx": "deck.pptx",
+    "language": "zh-CN"
+  },
+  "sources": [
+    {
+      "id": "fixture",
+      "citation": "医学汇报功能样张（2026）· 演示数据。",
+      "identity_status": "test_fixture"
+    }
+  ],
+  "slides": [
+    {
+      "id": "methods",
+      "section": "方法",
+      "title": "研究方法与分析单位",
+      "question": "同一份材料中，患者、膝与测量次数怎样区分？",
+      "notes": "表格按患者、膝与测量次数分别展示演示数据：40 位患者、40 膝、120 次测量。讲述时先说明分析对象，再解释重复随访的记录方式。下一页用图表展示两组指标及其差值。",
+      "expected_text": [
+        "40",
+        "120",
+        "患者",
+        "测量次数"
+      ],
+      "required_objects": [
+        "text",
+        "table"
+      ],
+      "layout": {
+        "type": "table",
+        "intro": "记录结果时注明分析单位。\n重复测量与独立样本\n应分别说明。",
+        "table": [
+          [
+            "记录项",
+            "测试数值",
+            "含义"
+          ],
+          [
+            "患者",
+            "40",
+            "独立对象"
+          ],
+          [
+            "膝",
+            "40",
+            "分析单位"
+          ],
+          [
+            "测量次数",
+            "120",
+            "含重复随访"
+          ]
+        ],
+        "caption": "演示数据：40 位患者、40 膝、120 次测量。"
+      },
+      "evidence": [
+        {
+          "claim": "表格中患者 40、膝 40、测量次数 120 为功能测试值。",
+          "source_id": "fixture",
+          "locator": "examples/demo.json → slides[0].layout.table",
+          "status": "test_fixture",
+          "population": "人工构造的测试记录",
+          "unit": "患者 / 膝 / 测量次数",
+          "denominator": "40 / 40 / 120",
+          "interpretation": "表格编辑与数值对应。"
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "section": "结果",
+      "title": "结果页的图表与数值",
+      "question": "图表数值、说明文字和来源能否逐项对应？",
+      "notes": "柱状图展示两组演示指标：测试组 A 为 10，测试组 B 为 14，纵轴采用任意单位。差值为 4，计算式为 14 − 10。讲述时结合坐标和标签说明两组数值，再在证据面板查看对应字段。",
+      "expected_text": [
+        "10",
+        "14",
+        "测试组 A",
+        "测试组 B",
+        "任意单位"
+      ],
+      "required_objects": [
+        "text",
+        "chart"
+      ],
+      "layout": {
+        "type": "chart",
+        "categories": [
+          "测试组 A",
+          "测试组 B"
+        ],
+        "values": [
+          10,
+          14
+        ],
+        "intro": "测试组 A：10\n测试组 B：14\n\n差值：4（测试计算）",
+        "caption": "纵轴：任意单位 · 演示数据"
+      },
+      "evidence": [
+        {
+          "claim": "测试组 A = 10，测试组 B = 14，差值 = 4。",
+          "source_id": "fixture",
+          "locator": "examples/demo.json → slides[1].layout.values",
+          "status": "test_fixture",
+          "value": "10 / 14",
+          "unit": "任意单位",
+          "derivation": "14 − 10 = 4；输入为测试数据。",
+          "interpretation": "原生图表与数值对应。"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "讨论",
+      "title": "内容核对与修改",
+      "question": "如何让正文、讲稿和来源保持一致？",
+      "notes": "三页样张通过一份内容记录组织文字、表格、图表与讲稿。审阅时逐项核对文献身份、原文位置、人群、结局和时间点。在对应页面记录修改意见并导出清单，交给 Codex 同步更新 PPT、讲稿和来源。",
+      "expected_text": [
+        "页面内容",
+        "核对要点",
+        "文献身份",
+        "原文位置"
+      ],
+      "required_objects": [
+        "text"
+      ],
+      "layout": {
+        "type": "discussion",
+        "left_title": "页面内容",
+        "left": "文字、表格与图表保持可编辑\n讲稿与来源关联到具体页面\n修改意见随页面和版本保存",
+        "right_title": "核对要点",
+        "right": "文献身份与原文位置\n人群、分母、单位与时间点\n结论强度和研究局限"
+      },
+      "evidence": [
+        {
+          "claim": "样张使用一份内容记录同步页面、讲稿和来源。",
+          "source_id": "fixture",
+          "locator": "examples/demo.json → deck.mode",
+          "status": "test_fixture",
+          "interpretation": "内容组织与改稿流程。"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "evidence": {
+      "status": "not_checked",
+      "note": "素材类型：演示数据。"
+    },
+    "file": {
+      "status": "not_checked",
+      "note": "等待生成后检查原生对象与内容一致性。"
+    },
+    "visual": {
+      "status": "not_checked",
+      "note": "等待最终 PPTX 渲染后逐页查看。"
+    }
+  }
+}
