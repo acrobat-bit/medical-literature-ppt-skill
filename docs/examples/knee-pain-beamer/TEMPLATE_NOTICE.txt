@@ -1,0 +1,11 @@
+Beamer Metropolis style for editable medical presentations
+
+Original design: Matthias Vogelgesang and contributors, Metropolis 1.2 (2017).
+Source: https://github.com/matze/mtheme
+Distribution: https://ctan.org/pkg/beamertheme-metropolis
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Native PowerPoint adaptation prepared on 2026-10-18 for this medical presentation Skill. Adaptations include a 16:9 canvas, Chinese typography, a split cover with editable journal and presenter fields, two-level headings, source-image placeholders, and removal of footer numbering and navigation. This template adaptation is distributed under CC-BY-SA-4.0. The theme license does not change the rights in scientific articles used as presentation content.
+
+The original LaTeX source archive is preserved unchanged as metropolis-original.zip. Its source headers retain the original copyright notices.

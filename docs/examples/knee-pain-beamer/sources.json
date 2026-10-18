@@ -1,0 +1,552 @@
+{
+  "deck": "pierson-knee-pain-2021",
+  "version": "v1.0-beamer-demo",
+  "sources": [
+    {
+      "id": "paper",
+      "citation": "Pierson E, Cutler DM, Leskovec J, Mullainathan S, Obermeyer Z. An algorithmic approach to reducing unexplained pain disparities in underserved populations. Nature Medicine. 2021;27:136–140.",
+      "doi": "10.1038/s41591-020-01192-7",
+      "pmid": "33442014",
+      "url": "https://www.nature.com/articles/s41591-020-01192-7",
+      "identity_status": "verified",
+      "publication_year": 2021,
+      "read_scope": "正式全文 PDF 15 页，含 Methods、Extended Data Figures 1–4 与报告摘要；全文、方法、图表和局限已核对。",
+      "pdf_file": "source/article.pdf",
+      "pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870"
+    },
+    {
+      "id": "tiulpin-2018",
+      "citation": "Tiulpin A, Thevenot J, Rahtu E, Lehenkari P, Saarakkala S. Automatic Knee Osteoarthritis Diagnosis from Plain Radiographs: A Deep Learning-Based Approach. Scientific Reports. 2018;8:1727.",
+      "doi": "10.1038/s41598-018-20132-7",
+      "pmid": "29379060",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29379060/",
+      "identity_status": "verified",
+      "publication_year": 2018,
+      "read_scope": "PubMed / Europe PMC 身份与摘要；全文 PDF 第 1–4 页核对 KL 分级学习目标、数据及网络方法，第 8 页核对讨论。",
+      "pdf_file": "source/tiulpin-2018.pdf",
+      "pdf_sha256": "3df3478b597333c933453e05a7adabb8916e851cd55ec50f35f1afa90effab36"
+    },
+    {
+      "id": "pierson-profile",
+      "citation": "University of California, Berkeley, EECS. Emma Pierson faculty profile. 任职与头像核对日期：2026-10-18。",
+      "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/emmapierson.html",
+      "identity_status": "verified",
+      "read_scope": "官方任职、Biography、照片及个人主页发表链接。"
+    },
+    {
+      "id": "pierson-policing",
+      "citation": "Pierson E, Simoiu C, Overgoor J, et al. A large-scale analysis of racial disparities in police stops across the United States. Nature Human Behaviour. 2020;4:736–745.",
+      "doi": "10.1038/s41562-020-0858-1",
+      "pmid": "32367028",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32367028/",
+      "identity_status": "verified",
+      "publication_year": 2020,
+      "read_scope": "PubMed / Europe PMC 作者、机构与摘要；与作者官方主页发表链接交叉核对。"
+    },
+    {
+      "id": "pierson-mobility",
+      "citation": "Chang S, Pierson E, Koh PW, et al. Mobility network models of COVID-19 explain inequities and inform reopening. Nature. 2021;589:82–87.",
+      "doi": "10.1038/s41586-020-2923-3",
+      "pmid": "33171481",
+      "url": "https://www.nature.com/articles/s41586-020-2923-3",
+      "identity_status": "verified",
+      "publication_year": 2021,
+      "read_scope": "期刊署名、作者贡献及 PubMed / Europe PMC 摘要；正式刊期为 2021 年，在线发表为 2020-11-10。"
+    },
+    {
+      "id": "nm-jif",
+      "citation": "Nature Medicine. Journal Metrics: Journal Impact Factor 52.5 (2025). 核对日期：2026-10-18。",
+      "url": "https://www.nature.com/nm/journal-impact",
+      "identity_status": "verified",
+      "read_scope": "期刊官方 Citation Impact 页面。"
+    }
+  ],
+  "slides": [
+    {
+      "id": "cover",
+      "title": "文献",
+      "subtitle": "",
+      "evidence": [
+        {
+          "source_id": "paper",
+          "claim": "An algorithmic approach to reducing unexplained pain disparities in underserved populations",
+          "locator": "论文全文题名与作者区",
+          "status": "verified"
+        },
+        {
+          "source_id": "nm-jif",
+          "claim": "Nature Medicine 的 2025 年 Journal Impact Factor 为 52.5。",
+          "locator": "Journal Impact Factor / Journal Citation Reports",
+          "status": "verified"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "authors",
+      "title": "作者",
+      "subtitle": "简介",
+      "evidence": [
+        {
+          "source_id": "paper",
+          "claim": "第一作者；研究领域据已发表论文归纳",
+          "locator": "Author information / Article notes",
+          "status": "verified"
+        },
+        {
+          "source_id": "pierson-profile",
+          "claim": "Emma Pierson，加州大学伯克利分校，计算机科学助理教授。",
+          "locator": "Faculty profile / Biography",
+          "status": "verified",
+          "image_transform": "使用来源页面公开照片，等比例展示。"
+        },
+        {
+          "source_id": "pierson-policing",
+          "claim": "Emma Pierson以第一作者身份发表：A large-scale analysis of racial disparities in police stops across the United States.",
+          "locator": "文章题名、作者署名、机构及摘要",
+          "status": "verified",
+          "author_identity": "PubMed 作者首位 Emma Pierson，机构为 Stanford Computer Science。；作者伯克利官方个人主页列出该论文，研究履历含 Stanford PhD。"
+        },
+        {
+          "source_id": "pierson-mobility",
+          "claim": "Emma Pierson以共同第一作者身份发表：Mobility network models of COVID-19 explain inequities and inform reopening.",
+          "locator": "文章题名、作者署名、机构及摘要",
+          "status": "verified",
+          "author_identity": "期刊首页 Emma Pierson 署名带同等贡献标记 9，与 Serina Chang、Pang Wei Koh 并列。；作者官方个人主页列出该论文；论文机构 Stanford Computer Science 与 Microsoft Research 对应其履历。"
+        },
+        {
+          "source_id": "pierson-policing",
+          "claim": "研究领域：群体差异的统计测量",
+          "locator": "已核对论文的题名与摘要",
+          "status": "verified",
+          "interpretation": "依据作者已发表论文的研究主题归纳。"
+        },
+        {
+          "source_id": "pierson-mobility",
+          "claim": "研究领域：健康与公共卫生建模",
+          "locator": "已核对论文的题名与摘要",
+          "status": "verified",
+          "interpretation": "依据作者已发表论文的研究主题归纳。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "background",
+      "title": "背景",
+      "subtitle": "影像分级与疼痛差异",
+      "evidence": [
+        {
+          "claim": "既往模型以 KL 分级为学习目标。",
+          "source_id": "tiulpin-2018",
+          "locator": "PubMed Abstract",
+          "status": "verified",
+          "verification_scope": "全文 PDF 第 1–4 页确认；摘要中的同一论断位置保留。"
+        },
+        {
+          "claim": "本文以 KOOS 疼痛评分为学习目标，再用于群体差异分析。",
+          "source_id": "paper",
+          "locator": "PDF 第 1–2、6 页",
+          "status": "verified"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "workflow",
+      "title": "方法",
+      "subtitle": "研究流程",
+      "evidence": [
+        {
+          "claim": "OAI 45–79 岁；五个时点；4,172 人、36,369 条记录；训练开发 2,877/25,049；验证 1,295/11,320。",
+          "source_id": "paper",
+          "locator": "PDF 第 1–2、6、10 页；Table 1、Extended Data Figure 2",
+          "status": "verified",
+          "analysis_unit": "膝—时间点；划分和区间按患者聚类",
+          "denominator": "4,172 名患者；36,369 条记录"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/workflow.png",
+          "sha256": "d03e3c86776e03bce5477859d89bed5267a5ee1b30ff2cc0e565ea7750e5fcde",
+          "source_id": "paper",
+          "locator": "Extended Data Figure 2：Analysis pipeline",
+          "kind": "figure",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 10,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            57,
+            554,
+            268
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            4267,
+            1758
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "learning-target",
+      "title": "方法",
+      "subtitle": "以疼痛为学习目标",
+      "evidence": [
+        {
+          "claim": "模型主要预测 KOOS 疼痛；输入仅为 X 线；KOOS 0–100，低分为更重疼痛。",
+          "source_id": "paper",
+          "locator": "PDF 第 6 页 / Study outcomes、Neural network training",
+          "status": "verified",
+          "interpretation": "方法贡献在于以患者结局构建影像测量，并检验既有分级的解释范围。"
+        },
+        {
+          "claim": "既往自动诊断模型训练目标为 KL 分级。",
+          "source_id": "tiulpin-2018",
+          "locator": "Abstract",
+          "status": "verified",
+          "verification_scope": "全文 PDF 第 1–4 页确认；摘要中的同一论断位置保留。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "model-training",
+      "title": "方法",
+      "subtitle": "影像输入与联合训练",
+      "evidence": [
+        {
+          "claim": "输入、翻转、标准化、ResNet-18、KOOS 和 19 项辅助影像任务、开发集 RMSE、5 模型集成。",
+          "source_id": "paper",
+          "locator": "PDF 第 6 页 / Radiological images and preprocessing、Neural network training",
+          "status": "verified"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "disparity-analysis",
+      "title": "方法",
+      "subtitle": "差异量化",
+      "evidence": [
+        {
+          "claim": "群体差异定义为均值差或调整严重程度后的群体回归系数；比例按原始差距缩减量计算。",
+          "source_id": "paper",
+          "locator": "PDF 第 6–7 页 / Quantifying pain disparities；第 3 页 Table 2",
+          "status": "verified",
+          "denominator": "验证集 1,295 人、11,320 条记录",
+          "uncertainty": "按患者聚类计算 95% CI",
+          "interpretation": "统计解释比例与患者实际疼痛变化是不同的研究量。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "fair-comparison",
+      "title": "方法",
+      "subtitle": "评分对齐",
+      "evidence": [
+        {
+          "claim": "KLG 按分类变量在训练开发集用 Lasso 拟合疼痛；ALG-P 五档匹配 KLG 档位人数；交互项与分层加权稳健性分析。",
+          "source_id": "paper",
+          "locator": "PDF 第 6–7 页 / Quantifying pain disparities、Robustness check: ALG-P is not merely a more granular KLG",
+          "status": "verified",
+          "interpretation": "通过尺度、粒度和模型假设的对应检查，提高两种严重程度指标的可比性。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "diversity-experiment",
+      "title": "方法",
+      "subtitle": "等量数据消融",
+      "evidence": [
+        {
+          "claim": "移除目标人群与等规模移除非目标人群比较；后者五次随机抽样；黑人样本消融 2.3× 对平均 4.9×。",
+          "source_id": "paper",
+          "locator": "PDF 第 2–3、9 页；Extended Data Figure 1",
+          "status": "verified",
+          "interpretation": "在相同样本量下检验训练人群构成，与单纯增大样本量分开。"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/diversity.png",
+          "sha256": "7ce2be8a9a4922a93cc40b18a855dd7a3da6a6cb94daf1792848f6f829ec28bc",
+          "source_id": "paper",
+          "locator": "Extended Data Figure 1：训练集构成消融",
+          "kind": "figure",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 9,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            54,
+            554,
+            284
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            4267,
+            1917
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "signal-checks",
+      "title": "方法",
+      "subtitle": "信号来源检验",
+      "evidence": [
+        {
+          "claim": "均值像素遮挡、Gaussian smoothing、32×32 网格、目标膝热区；分层、已知特征调整和五次留站点检验。",
+          "source_id": "paper",
+          "locator": "PDF 第 3、7–8 页；Figure 1；Visualizing image regions、Robustness checks",
+          "status": "verified",
+          "interpretation": "热图是模型预测的敏感性定位，组织学对应关系另需直接测量。"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/heatmap.png",
+          "sha256": "97d303e2bd5a3e0b983d887b5bf2cf126a5bca96c6e5a21145eaea6cbc5e1479",
+          "source_id": "paper",
+          "locator": "Figure 1：遮挡敏感性热图及图注",
+          "kind": "figure",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 3,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            245,
+            293,
+            545
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            2092,
+            2500
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "prediction",
+      "title": "结果",
+      "subtitle": "疼痛预测",
+      "evidence": [
+        {
+          "claim": "Pearson R² 0.16/0.10，RMSE 14.9/15.4，重度疼痛 AUC 0.69/0.64，完整区间见原图。",
+          "source_id": "paper",
+          "locator": "PDF 第 2、12 页；Extended Data Figure 4",
+          "status": "verified",
+          "timepoint": "五个观察时点汇总的验证集",
+          "denominator": "1,295 人，11,320 条膝—时间点记录",
+          "uncertainty": "R² 0.13–0.19 vs 0.08–0.13；AUC 0.67–0.71 vs 0.62–0.66"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/performance.png",
+          "sha256": "0016efa15ae9a06cd53308b5fd77b545dcafb15733cd01ae3f7800133738f6c0",
+          "source_id": "paper",
+          "locator": "Extended Data Figure 4：预测表现及区间",
+          "kind": "figure",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 12,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            54,
+            554,
+            193
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            4267,
+            1158
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "gap-results",
+      "title": "结果",
+      "subtitle": "差异解释",
+      "evidence": [
+        {
+          "claim": "种族差距 10.6→9.7/6.1；解释比例 9%/43%，收入 16%/32%，教育 8%/30%。",
+          "source_id": "paper",
+          "locator": "PDF 第 3 页 Table 2",
+          "status": "verified",
+          "uncertainty": "种族解释比例 95% CI：3–16% 与 33–56%",
+          "analysis_unit": "群体平均差异；患者级聚类区间"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/table-2.png",
+          "sha256": "42a692d1bb8fc6b4072e9e21ac307eb21eef53230f98eef0da37998424706ad4",
+          "source_id": "paper",
+          "locator": "Table 2：疼痛差异及统计调整结果",
+          "kind": "table",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 3,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            51,
+            554,
+            229
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            4267,
+            1483
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "结果",
+      "subtitle": "候选规则模拟",
+      "evidence": [
+        {
+          "claim": "基线、排除既往膝手术，严重疼痛 KOOS≤86.1，KLG≥3 或同等分位 ALG-P≥3；黑人候选膝 11%→22%。",
+          "source_id": "paper",
+          "locator": "PDF 第 4、7 页；Table 3、Allocation of arthroplasty",
+          "status": "verified",
+          "analysis_unit": "膝",
+          "uncertainty": "11%（7–15%）与22%（17–27%）",
+          "interpretation": "基于规则的候选膝模拟；未开展算法指导治疗的前瞻性干预。"
+        }
+      ],
+      "source_images": [
+        {
+          "file": "assets/table-3.png",
+          "sha256": "45028000465b2a60ac59bdba70aba4582923511a3ac1acf5e910a557140c46b7",
+          "source_id": "paper",
+          "locator": "Table 3：置换候选规则模拟",
+          "kind": "table",
+          "origin": "pdf_crop",
+          "source_pdf": "source/article.pdf",
+          "source_pdf_sha256": "a530600847b2b0045c4701bad2808e940c0bea0749001d119fd274380a692870",
+          "page": 4,
+          "page_size_points": [
+            595.276,
+            790.866
+          ],
+          "crop_points": [
+            42,
+            54,
+            293,
+            211
+          ],
+          "dpi": 600,
+          "pixel_size": [
+            2092,
+            1308
+          ],
+          "captured_at": "2026-10-18",
+          "transform": "从原始 PDF 直接裁切，保留原始表头、数值和脚注。",
+          "source_url": "https://cs.stanford.edu/people/jure/pubs/pain-nature_medicine21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "title": "讨论",
+      "subtitle": "测量与临床判断",
+      "evidence": [
+        {
+          "claim": "新影像严重程度指标对疼痛差异有更高解释比例。",
+          "source_id": "paper",
+          "locator": "PDF 第 1–4 页",
+          "status": "verified",
+          "interpretation": "汇报者分析：指标定义是研究问题的一部分，结局导向的测量可用于检验既有分级的解释范围。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "highlights",
+      "title": "亮点",
+      "subtitle": "学习目标与验证思路",
+      "evidence": [
+        {
+          "claim": "疼痛监督目标、差异量化、等量消融与稳健性设计。",
+          "source_id": "paper",
+          "locator": "PDF 第 2–3、6–10 页",
+          "status": "verified",
+          "interpretation": "汇报者判断：主要方法贡献为结局导向的测量及差异分析；消融与对应验证属于执行质量，固定布局与配色属于表达质量。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "limitations",
+      "title": "局限",
+      "subtitle": "预测精度与应用距离",
+      "evidence": [
+        {
+          "claim": "同一 OAI 队列、个体解释度低、组织信号解释问题、置换规则模拟。",
+          "source_id": "paper",
+          "locator": "PDF 第 4 页 / Study limitations；第 7–8 页 / Allocation、site validation",
+          "status": "verified",
+          "interpretation": "适用范围由队列与采集方式界定；统计解释、个体预测与治疗决策分别有对应的评价任务。"
+        }
+      ],
+      "source_images": []
+    },
+    {
+      "id": "reflection",
+      "title": "感想",
+      "subtitle": "选题方向",
+      "evidence": [],
+      "source_images": []
+    }
+  ]
+}

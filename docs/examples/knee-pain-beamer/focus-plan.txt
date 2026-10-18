@@ -1,0 +1,61 @@
+文章亮点与讲述重点
+An algorithmic approach to reducing unexplained pain disparities in underserved populations
+按 2021 年发表时的证据背景判断。
+
+方法是主要贡献：展开疼痛监督目标、差异量化、评分对齐、等量数据消融与信号检验。常规网络和患者级验证作为基础步骤说明。背景一页，结果保留预测、差异解释与候选规则模拟三个层次。
+
+选题（支持亮点）
+新颖性：增量贡献
+判断：把严重程度的测量方式纳入疼痛差异研究
+新增内容：检验传统分级遗漏的疼痛相关影像信息。
+优秀之处：问题明确对应患者报告结局与影像测量。
+实际价值：使统计解释与实际测量工具的关系可被检验。
+依据：Pierson E, Cutler DM, Leskovec J, Mullainathan S, Obermeyer Z. An algorithmic approach to reducing unexplained pain disparities in underserved populations. Nature Medicine. 2021;27:136–140.；PDF 第 1–2 页
+既往研究比较：Tiulpin A, Thevenot J, Rahtu E, Lehenkari P, Saarakkala S. Automatic Knee Osteoarthritis Diagnosis from Plain Radiographs: A Deep Learning-Based Approach. Scientific Reports. 2018;8:1727.；既往膝关节深度学习以专家 KL 分级为目标；本文以患者疼痛为主要目标，再评价严重程度指标对群体差异的解释能力。
+
+方法（主要亮点）
+新颖性：增量贡献
+判断：以患者疼痛构建影像指标，再审视传统分级的解释范围
+新增内容：改变主要学习目标，结合独立验证的影像预测与群体差异模型。
+优秀之处：等量数据消融分离样本量与人群构成；尺度对齐、分档、分层和留站点检验对应具体替代解释。
+实际价值：揭示新增信息来自哪里，以及改变测量方式怎样影响研究判断。
+依据：Pierson E, Cutler DM, Leskovec J, Mullainathan S, Obermeyer Z. An algorithmic approach to reducing unexplained pain disparities in underserved populations. Nature Medicine. 2021;27:136–140.；PDF 第 2–3、6–10 页；Methods、Figures 1、Extended Data Figures 1–2
+既往研究比较：Tiulpin A, Thevenot J, Rahtu E, Lehenkari P, Saarakkala S. Automatic Knee Osteoarthritis Diagnosis from Plain Radiographs: A Deep Learning-Based Approach. Scientific Reports. 2018;8:1727.；既往膝关节深度学习以专家 KL 分级为目标；本文以患者疼痛为主要目标，再评价严重程度指标对群体差异的解释能力。
+
+结论与讨论（支持亮点）
+新颖性：成熟做法
+判断：把预测表现、差异解释和候选筛选模拟逐层区分
+新增内容：提供结局导向影像测量的实证结果。
+优秀之处：同时给出效应量、区间和不同任务的结果。
+实际价值：帮助听众理解统计解释的增量及其临床研究含义。
+依据：Pierson E, Cutler DM, Leskovec J, Mullainathan S, Obermeyer Z. An algorithmic approach to reducing unexplained pain disparities in underserved populations. Nature Medicine. 2021;27:136–140.；PDF 第 2–4、12 页；Table 2、Table 3、Extended Data Figure 4
+
+图表表达（支持亮点）
+新颖性：成熟做法
+判断：等量消融图把控制条件和重复抽样组织清楚
+新增内容：采用成熟的多面板比较形式。
+优秀之处：按人群与指标安排矩阵，用固定颜色区分 KLG、缺少目标人群的训练集和五次多样化抽样。
+实际价值：图的组织使等样本量比较的设计和结果能够同时阅读。
+依据：Pierson E, Cutler DM, Leskovec J, Mullainathan S, Obermeyer Z. An algorithmic approach to reducing unexplained pain disparities in underserved populations. Nature Medicine. 2021;27:136–140.；PDF 第 9 页；Extended Data Figure 1
+
+逐页讲述安排
+01 文献；简述，建议 25 秒
+02 作者：简介；简述，建议 35 秒
+03 背景：影像分级与疼痛差异；常规说明，建议 55 秒
+04 方法：研究流程；常规说明，建议 65 秒
+05 方法：以疼痛为学习目标；重点展开，建议 110 秒
+06 方法：影像输入与联合训练；常规说明，建议 70 秒
+07 方法：差异量化；重点展开，建议 110 秒
+08 方法：评分对齐；重点展开，建议 100 秒
+09 方法：等量数据消融；重点展开，建议 110 秒
+10 方法：信号来源检验；重点展开，建议 100 秒
+11 结果：疼痛预测；常规说明，建议 65 秒
+12 结果：差异解释；常规说明，建议 75 秒
+13 结果：候选规则模拟；常规说明，建议 50 秒
+14 讨论：测量与临床判断；常规说明，建议 65 秒
+15 亮点：学习目标与验证思路；常规说明，建议 75 秒
+16 局限：预测精度与应用距离；常规说明，建议 85 秒
+17 感想：选题方向；简述，建议 35 秒
+
+建议总时长：20.5 分钟。
+讨论后依次为文章亮点、局限和演讲者感想。

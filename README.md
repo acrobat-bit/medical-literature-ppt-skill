@@ -6,6 +6,18 @@
 
 [下载 v1.0 安装包](dist/medical-literature-ppt-skill-v1.0.zip?raw=1) · [Skill 入口](make-natural-academic-slides/SKILL.md) · [运行说明](make-natural-academic-slides/references/runtime.md)
 
+## 真实论文示例 · Beamer
+
+**膝骨关节炎：用疼痛重新审视影像分级**，基于 Pierson 等发表于 Nature Medicine（2021）的真实研究。
+
+[在线网页审阅台](https://acrobat-bit.github.io/medical-literature-ppt-skill/examples/knee-pain-beamer/) · [下载示例 PPT](docs/examples/knee-pain-beamer/deck.pptx?raw=1) · [逐页讲稿](docs/examples/knee-pain-beamer/notes.md) · [整套离线包](dist/beamer-knee-pain-demo-v1.0.zip?raw=1)
+
+完整 17 页，方法部分占 7 页、约 54% 的建议讲述时间。可以直接查看原图、讲稿和证据，填写修改意见，并体验感想选题。解压离线包后打开 `index.html` 即可本地审阅。
+
+![Beamer 示例封面](docs/examples/knee-pain-beamer/slides/01.png)
+
+![方法首页：原文研究流程图](docs/examples/knee-pain-beamer/slides/04.png)
+
 ## 亮点
 
 ### 1. 按文章的实际贡献分配重点
